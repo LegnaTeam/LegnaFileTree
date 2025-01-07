@@ -78,4 +78,4 @@ MIT License
 
 ## 示例截图
 
-![示例截图](screenshot.png)
+![示例截图](![image](https://github.com/user-attachments/assets/78d8fcdb-b159-4261-9197-bdafca52dc46)
