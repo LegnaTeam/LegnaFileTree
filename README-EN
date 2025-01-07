@@ -1,0 +1,81 @@
+# File Tree Generator
+
+A Python-based GUI tool for generating project directory structures using Tkinter.
+
+## Features
+
+- 🖼️ Graphical user interface
+- 📁 Supports multi-level directory structure generation
+- 📝 File creation support
+- 🔄 Overwrite option
+- 🖱️ Path browsing and selection
+- 🖥️ Cross-platform support (Windows/macOS/Linux)
+- 🛡️ Path security checks
+- 📋 Quick template generation
+
+## Usage Instructions
+
+### Interface Overview
+
+1. **Input Area**: Enter the file tree structure using the following format:
+   ```
+   project/
+   ├── src/
+   │   ├── main.py
+   │   └── utils/
+   │       ├── __init__.py
+   │       └── file_utils.py
+   └── README.md
+   ```
+
+2. **Output Path**:
+   - Manual input or select via "Browse..." button
+   - Supports local and network paths
+   - Default path: `./output`
+
+3. **Generation Options**:
+   - Force Overwrite: Overwrite existing files/directories
+   - Generate Example: Quickly populate example file tree structure
+
+### Quick Start
+
+1. Install dependencies:
+   ```bash
+   pip install tkinter ttkbootstrap
+   ```
+
+2. Run the program:
+   ```bash
+   python main.py
+   ```
+
+3. Usage steps:
+   - Enter file tree structure or click "Generate Example"
+   - Select output path
+   - Click "Generate File Tree" button
+
+### Path Support
+
+- Local paths: `/path/to/project`
+- Relative paths: `./output`
+- Windows network paths: `\\server\share\project`
+- macOS iCloud paths: `/Users/username/Library/Mobile Documents/...`
+
+## Development Environment
+
+- Python 3.8+
+- Dependencies:
+  - `tkinter`
+  - `ttkbootstrap`
+
+## License
+
+MIT License
+
+## Contribution Guidelines
+
+We welcome issue submissions and pull requests
+
+## Example Screenshot
+
+![Example Screenshot](screenshot.png)
